@@ -1,2 +1,3 @@
-# Rust Project Template 
+# Rust Smart Contract Template 
+
 
