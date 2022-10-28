@@ -1,5 +1,5 @@
-fn add(left: usize, right: usize) -> usize {
-    left + right
+fn welcome(text: String) -> String {
+    text.to_string()
 }
 
 #[cfg(test)]
@@ -7,8 +7,8 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+    fn test_welcome() {
+        let result = "Hola Rust";
+        assert_eq!(result, "Hola Rust")
     }
 }
